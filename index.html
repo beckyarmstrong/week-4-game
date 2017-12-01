@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="UTF-8">
+  <title>Crystal Game</title>
+
+  <link rel="stylesheet" type="text/css" href="assets\css\reset.css"/>
+  <link rel="stylesheet" type="text/css" href="assets\css\style.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script type="text/javascript" src="assets/javascript/game.js"></script>
+</head>
+<body>
+    <div id="white">
+        <img src="assets\images\gem1.png" alt="gem1" class="gems" id="gemOne">
+        <img src="assets\images\gem2.png" alt="gem2" class="gems" id="gemTwo">
+        <img src="assets\images\gem3.png" alt="gem3" class="gems" id="gemThree">
+        <img src="assets\images\gem4.png" alt="gem4" class="gems" id="gemFour"> 
+        <div class="outline">
+            <h6>Wins: </h6>
+            <h6 id="winCount"></h6>
+            <h6>Losses: </h6>
+            <h6 id="lossCount"></h6>
+        </div>
+    </div>
+    <div class ="outline2">
+        <h5>Random #:</h5>
+        <br>
+        <h5 id="randomSpace"></h5>
+        <br>
+        
+        <br>
+        <br>
+        <h5>Your total score is:</h5>
+        <br>
+        <h5 id="scoreSpace"></h5>
+    </div>
+
+    <div id="bluebox">
+        <h4>Crystal Collector</h4>
+    </div>
+    <div class="instructions">
+        <h1>Instructions:</h1>
+        <br/>
+        <h2>1. You will be given a random #</h2>
+        <br/>
+        <h2>2. There are four crystals, each holding a specfic value</h2>
+        <br/>
+        <h2>3. Click on a crystal, and that value will be added to your score</h2>
+        <br>
+        <h2>Win = your total score matches the random #</h2>
+        <br/>
+        <h2>Lose = your total score goes above the random #</h2>
+        <br/>
+        <br>
+        <br>
+        <h3>Note: </h3>
+        <br>
+        <h3>-The crystal's value is hidden until you click on it.</h3>
+        <br/>
+        <h3>-Each time the game starts, the values will change.</h3>
+    </div>
+
+<!-- End of HTML -->
+
+</body>
+<div class="footer">
+</div>
+</html>
